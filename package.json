@@ -1,6 +1,6 @@
 {
   "name": "ct-adc-loading",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "a loading component for vue",
   "author": "马潮 <632859571@qq.com>",
   "private": false,
@@ -63,5 +63,22 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ct-adc/adc-loading.git"
+  },
+  "keywords": [
+    "vue",
+    "loading",
+    "component"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ct-adc/adc-loading/issues"
+  },
+  "homepage": "https://github.com/ct-adc/adc-loading#readme"
 }

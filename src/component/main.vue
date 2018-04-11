@@ -29,7 +29,8 @@
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background-color: rgba(255, 255, 255, 0.8);
+		background-color: rgba(255, 255, 255, 0.9);
+		z-index: 1000000;
 	}
 	.fade-enter,.fade-leave-active{
 		opacity: 0;
@@ -45,6 +46,7 @@
 		width: 100%;
 		margin-top: -30px;
 		text-align: center;
+		z-index: 1000001;
 	}
 	.loading-icon{
 		background: url(../imgs/loading.gif) no-repeat;
