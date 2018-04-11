@@ -12,7 +12,7 @@ let plugin = {
 				})
 				let msg = el.getAttribute('loading-msg') || '';
 
-				el.appendChild($vm.$el);
+				el.insertBefore($vm.$el, el.children[0] || null);
 
 				$vm.isShow = binding.value;
 				$vm.msg = msg;

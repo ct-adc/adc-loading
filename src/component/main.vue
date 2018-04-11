@@ -1,13 +1,11 @@
 <template>
-	<transition name="fade">
-		<div class="loading-wrap" v-show="isShow">
-			<div class="loading-mask"></div>
-			<div class="loading-body">
-				<div class="loading-icon"></div>
-				<div class="loading-msg" v-show="msg">{{msg}}</div>
-			</div>
+	<div class="loading-wrap" v-show="isShow">
+		<div class="loading-mask"></div>
+		<div class="loading-body">
+			<div class="loading-icon"></div>
+			<div class="loading-msg" v-show="msg">{{msg}}</div>
 		</div>
-	</transition>
+	</div>
 </template>
 
 <script type="text/ecmascript-6">
@@ -32,13 +30,6 @@
 		background-color: rgba(255, 255, 255, 0.9);
 		z-index: 1000000;
 	}
-	.fade-enter,.fade-leave-active{
-		opacity: 0;
-	}
-	.fade-enter-active,.fade-leave-active{
-		transition: opacity 300ms;
-	}
-
 	.loading-body{
 		position: absolute;
 		top: 50%;
@@ -59,4 +50,3 @@
 		color: #333;
 	}
 </style>
-

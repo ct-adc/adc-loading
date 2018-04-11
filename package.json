@@ -1,6 +1,6 @@
 {
   "name": "ct-adc-loading",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "a loading component for vue",
   "author": "马潮 <632859571@qq.com>",
   "private": false,
